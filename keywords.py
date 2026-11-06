@@ -27,5 +27,5 @@ str2 = "Student:"
 ans = "No,"
 
 print(str1, "Are you doing homework", end="?\n")
-print(str2, ans, "I am debugging my snacks.")
+print(str2, ans, "I am debugging my snacks", end=".\n")
 print(str1, "Error 404. Homework not found", end="!\n")
