@@ -36,7 +36,7 @@ num3 = float(input("Enter a number: "))
 if num1 > num2:
     if num1 > num3:
         print(num1)
-    else: 
+    else:
         print(num3)
 else:
     if num2 > num3:
@@ -50,3 +50,10 @@ if password == "Anahita":
     print("Access granted.")
 else:
     print("Access declined.")
+
+value = float(input("Enter a number: "))
+
+if value % 3 != 0:
+    print("Your number is not divisible by three.")
+else:
+    print("Your number is divisible by three.")
