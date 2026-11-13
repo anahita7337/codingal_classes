@@ -1,0 +1,8 @@
+name = input("Enter your name: ")
+is_present = input("Are you present today (y/n): ")
+homework = input("Did you finish your homework? (y/n): ")
+
+if is_present.lower().strip() == "y":
+    if homework.lower().strip() == "y":
+        bonus = 10
+        print("You got", bonus, "bonus points.")
