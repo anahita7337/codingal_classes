@@ -1,9 +1,9 @@
 # Individual team points:
-team1 = 438
-team2 = 85
-team3 = 834
-team4 = 203
-team5 = 43
+team1 = 43893
+team2 = 8945
+team3 = 84
+team4 = 20
+team5 = 3945
 
 # Their total:
 tot_points = team1 + team2 + team3 + team4 + team5
