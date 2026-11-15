@@ -21,7 +21,7 @@ else:
 if weather == "sunny" and homework == "y":
     print("Great weather and homework is done!")
 
-if weather == "rainy" or weather == "cloudy":
+if weather == ("rainy" or "cloudy"):
     print("Pack your umbrella. It may get wet outside.")
 
 if not (homework == "y"):
