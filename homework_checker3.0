@@ -1,0 +1,7 @@
+homework = input("Is your homework completed? (y/n): ")
+holiday = input("Is tomorrow a holiday? (y/n): ")
+
+if not (homework == "y" and holiday == "y"):
+    print("Stop dreaming. Go and finish your homework.")
+else:
+    print("Enjoy your day, lazy legend.😎")
